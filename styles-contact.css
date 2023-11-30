@@ -1,0 +1,190 @@
+/*This is my 201 Contact Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 201 Contact Web Page Project ------------ */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-image: url("images/mountain background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  text-align: center;
+
+
+	
+	
+}
+
+.center {
+    width: 40%;
+	min-width: 300px; /* so the browser doesn't make it smaller than this*/
+	padding: 2%;
+    margin: 100px auto;
+ 	background: rgba(154, 164, 177, 0.9); /*I made this more opaque to ensure that it would be more readable*/
+	text-align: center;
+	border-radius: 20px 20px 20px 20px;
+
+	/*----------- this is my fade in code-----------*/
+	animation: fadeIn 5s;
+	-webkit-animation: fadeIn 5s;
+	-moz-animation: fadeIn 5s;
+	-o-animation: fadeIn 5s;
+	-ms-animation: fadeIn 5s;
+	/*----------- the border below is the same color as my center, just at full opacity for less contrast. I also made it solid, not dotted -----------*/
+	border: 4px solid rgb(154, 164, 177);
+}
+
+@keyframes fadeIn {
+	0% { opacity: 0; }
+	100% {opacity: 1; }
+}
+@-moz-keyframes fadeIn {
+	0% { opacity: 0; }
+	100% {opacity: 1; }
+}
+@-webkit-keyframes fadeIn {
+	0% { opacity: 0; }
+	100% {opacity: 1; }
+}
+@-o-keyframes fadeIn {
+	0% { opacity: 0; }
+	100% {opacity: 1; }
+}
+@-ms-keyframes fadeIn {
+	0% { opacity: 0; }
+	100% {opacity: 1; }
+}
+
+/* -----------END of fade in code ------------- */
+   
+#logo {
+	width: 50%;
+	margin-top: 50px;
+    margin-bottom: 16px;
+	border: 3px dashed red;
+	text-align: center;
+	
+}
+
+h1 {
+	/* <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap" rel="stylesheet"> */
+font-family: 'Philosopher', sans-serif;
+	font-size: 3em;
+    margin: 20px auto 20px auto;
+    color: #000;
+}
+
+h2 {
+	 /* <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap" rel="stylesheet"> */
+font-family: 'Mulish', sans-serif;
+	font-size: 1.5em;
+    line-height: 1.4;
+    color: #3e4247;
+    padding: 0px 0px;
+    margin: 0px auto 15px auto;
+}
+
+p {
+	/* <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap" rel="stylesheet"> */
+font-family:'Mulish', sans-serif;
+	font-size: 1.2em;
+    line-height: 1.6;
+    color: #000;
+}
+nav{
+	font-family:'Times New Roman', Times, serif;
+	font-size: 1.2em;
+	width: 80%; /* This is the width of the nav element */
+	margin: 0 auto; /* This centers the entire nav element inside the center div */
+	border: solid #3e4247;
+	border-width: 2px 0; /* This puts a 3 pixel border on top and bottom of the nav element, the zero eliminates the left and right sides of the border */
+	text-align: center;
+	margin-top: 1.5em /* This adds a bit of space above the nav element */
+	}
+
+nav li{
+	display: inline;
+}
+
+nav a{
+	display: inline-block;
+	padding: 10px;
+}
+
+a{
+	color: #444;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover{
+	color: #9aa4b1;
+	background: #3e4247;
+}
+
+    
+    
+
